@@ -870,9 +870,8 @@ border: 1px solid var(--accent-color);
 .check-mark {
   position: relative;
 display: flex;
-justify-content: flex-end;
+justify-content: center;
 width: 100%;
-
 }
 
 .visually-hidden {
@@ -900,7 +899,7 @@ width: 100%;
 .input-icon-check {
   position: absolute;
   top: 50%;
-  left: 5px;
+  left: 0;
 
   fill: #ffffff;
   
@@ -916,7 +915,14 @@ width: 100%;
   
   border: 1px solid var(--accent-color); 
 }
-
+.policy-head {
+  text-align: center;
+margin-left: 7px;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.5;
+letter-spacing: 0.03em;
+}
 .submit-button {
   background-color: var(--accent-color);
   color: var(--btn-prime-color);
@@ -933,14 +939,7 @@ width: 100%;
 .submit-button:hover {
   background-color: #188CE8;
 }
-.policy-head {
-  text-align: center;
-margin-left: 7px;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.5;
-letter-spacing: 0.03em;
-}
+
 
  
 
