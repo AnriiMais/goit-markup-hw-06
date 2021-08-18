@@ -923,6 +923,10 @@ font-size: 14px;
 line-height: 1.5;
 letter-spacing: 0.03em;
 }
+.policy-agreement {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
 .submit-button {
   background-color: var(--accent-color);
   color: var(--btn-prime-color);
